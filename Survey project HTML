@@ -1,0 +1,82 @@
+<h1 id="title">Kaelee Fall Survey Form</h1>
+<p id="description">Thank you for taking the time to view this project</p>
+
+<fieldset>
+
+<form id ="survey-form">
+
+  
+
+  <label id ="name-label">Name </label>
+
+  <input id="name" type="text" placeholder="Enter your name" required="Your name is required"</input>
+
+  <label id ="email-label">Email</label>
+
+  <input id="email" type="email" placeholder="example@site.com" required="Please enter a valid email"></input>
+
+  <label id ="number-label">Age </label>
+
+  <input id="number" type="number" placeholder="Your age" min="10" max="99"></input>
+
+  <label>Which option best describes your current role?</label>
+
+  <select id="dropdown"> 
+
+  <option>Student</option>
+
+  <option>Professional</option>
+
+  <option>Unemployed</option>
+
+  </select>
+
+  <label>Would you recommend this project to a friend ?</label>
+
+  <input type="radio" name="survey" value="survey">
+
+  <label>Yes</label>
+
+  </input>
+
+  <input type="radio" name="survey" value="survey">
+
+  <label>No</label>
+
+  </input>
+
+  <label>What would you like to see improved? </label>
+
+  <input type="checkbox" value="feedback">
+
+  <label>UI Design</label>
+
+  </input>
+
+  <input type="checkbox" value="feedback">
+
+  <label>Content Writing</label>
+
+  </input>
+
+  <input type="checkbox" value="feedback">
+
+  <label>User Experience</label>
+
+  </input>
+
+  <label>Any comments or suggestions?</label>
+
+<label>
+   <textarea name="comments" rows="3" cols="30"placeholder="Enter your comment here"></textarea>
+   </label>
+
+  </input>
+
+    <button id="submit">Submit</button>
+
+  </form>
+
+   
+
+  </fieldset>
